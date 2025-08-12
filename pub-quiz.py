@@ -1,5 +1,7 @@
 # Welcome message for the quiz
-print("Welcome to the Pub Quiz 2025!")
+from datetime import datetime, timedelta, date
+today = date.today()
+print("Welcome to the Pub Quiz! The date today is:", today)
 
 # List of questions, options, and answers
 quiz_questions = [
